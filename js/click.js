@@ -1,0 +1,24 @@
+$(document).ready(function(){
+	$(".banner").bxSlider({
+		slideWidth:1920,
+		infiniteloop:false,
+		hideControlOnEnd:true,
+		slideMargin:0
+	});
+  	$("#menu-click").click(function(){
+   		 $("#menu").slideToggle("slow");
+  	});
+  	$("#con").click(function(){
+   		 $(".icon").slideToggle("slow");
+  	});
+  	$("#cen").click(function(){
+   		 $(".qcon").slideToggle("slow");
+  	});
+  	$("#can").click(function(){
+   		 $(".wcon").slideToggle("slow");
+  	});
+  	$("#cqn").click(function(){
+   		 $(".cqnd").slideToggle("slow");
+  	});
+
+});

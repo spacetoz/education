@@ -1,0 +1,37 @@
+section{width: 100%;max-width: 1000px;padding-top: 40px;margin: 0 auto; min-width: 320px;}
+section h4{width: 100%;text-align: center;font-size: 30px;}
+section p{width: 100%;text-align: center;font-size: 24px;margin-top: 19px;color: #888888;}
+section ul{width: 100%;margin-top: 57px;}
+section ul li{width: 22%;float: left;margin-right: 4%;height: 801px;}
+section ul li:nth-of-type(4){margin-right: 0;}
+section ul li:nth-of-type(8){margin-right: 0;}
+section ul li:nth-of-type(12){margin-right: 0;}
+section ul li div{width: 100%;}
+section ul li div p{color: #888;margin-top: 16px;line-height: 24px;text-indent: 28px;font-size: 14px;text-align: left;}
+section ul li div h5{font-size: 18px;font-weight: bold;color: #888;margin-top: 5px;}
+section ul li div span{display: block;font-size: 14px;color: #888;line-height: 24px;margin-top: 1px;}
+
+@media screen and (max-width:1000px ) and (min-width:721px) {
+	section ul{width: 96%;padding-left: 2%;padding-right: 2%;}
+	section ul li{height: 900px;}
+	section ul li:nth-of-type(1){height: 801px;}
+	section ul li:nth-of-type(2){height: 801px;}
+	section ul li:nth-of-type(3){height: 801px;}
+	section ul li:nth-of-type(4){height: 801px;}
+	section ul li div{display: block !important;}
+}
+
+@media screen and (max-width:720px) {
+	section{position: relative;}
+	section ul{width: 96%;padding-left: 2%;padding-right: 2%;margin-bottom: 100px;}
+	section ul li{width: 22%;float: left;margin-right: 4%;height: 100%; margin-bottom: 20px;}
+	section ul li{width: 32%;margin-right: 2%;}
+	section ul li:nth-of-type(3){margin-right: 0;}
+	section ul li:nth-of-type(6){margin-right: 0;}
+	section ul li:nth-of-type(9){margin-right: 0;}
+	section ul li:nth-of-type(12){margin-right: 0;}
+	section ul li:nth-of-type(4){margin-right: 2%;}
+	section ul li:nth-of-type(8){margin-right: 2%;}
+	section ul li div{display: none;padding: 5%; position: fixed;left: 0;top: 30%; width: 80%;margin-left:5%; border-radius:15px;background: white;z-index: 300;}
+	section ul li .after{display:none;width: 100%;margin-left: 0;height: 100%;position: fixed;top: 0;left: 0;background: rgba(0,0,0,0.6);z-index: 2; border-radius: 0px;}
+}

@@ -1,0 +1,11 @@
+*{margin:0; padding:0;}
+body{font-family: "microsoft yahei";}
+.clear{display:block; clear:both; font-size:0; height:0; line-height:0;}
+ul,li,p,img,h1,h2,h3,h4,h5,h6,header,nav,footer,aside,section,figcaption,dialog,hgroup{display: block;}
+.banner,.container,.service,.main,.end,.left,.center,.right,.top,.bottom{display:block;}
+ul li{list-style:none;}
+img{border:0;}
+a{text-decoration:none; outline:none;}
+input{outline: none; border: none;}
+.clearfix:after{display:block; height:0; clear:both; content:"."; visibility:hidden;}
+.ellipsis{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}

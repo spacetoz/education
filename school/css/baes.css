@@ -1,0 +1,75 @@
+.main{width: 100%;margin:0 auto;max-width: 1000px; min-width: 320px;margin-top: 40px;}
+.main aside{width: 28%;float: left;border-right: 1px solid #bbb;}
+.main aside ul{width: 100%;}
+.main aside ul li{width: 95%;margin-right: 5%;}
+.main aside ul li a{display: block;height: 48px;padding-top: 29px;width: 71.69%;padding-left: 28.31%;font-size: 22px;color: #222;}
+.main aside ul li:nth-of-type(1){background: url(../img/junxun-2.gif)no-repeat left center;border-bottom:3px solid white;}
+.main aside ul li:nth-of-type(2){background: url(../img/shixi.gif)no-repeat left center;border-bottom:3px solid #fa9634;}
+.main aside ul li:nth-of-type(3){background: url(../img/yundong-2.gif)no-repeat left center;border-bottom:3px solid white;}
+.main aside ul li:nth-of-type(4){background: url(../img/shixun-2.gif)no-repeat left center;border-bottom:3px solid white;}
+.main aside ul li:nth-of-type(5){background: url(../img/huaju-2.gif)no-repeat left center;border-bottom:3px solid white;}
+.main aside ul li:nth-of-type(6){background: url(../img/shengdan-2.gif)no-repeat left center;border-bottom:3px solid white;}
+
+.main aside ul li:nth-of-type(1):hover{background: url(../img/junxun.gif)no-repeat left center;border-bottom:3px solid #fa9634;}
+.main aside ul li:nth-of-type(3):hover{background: url(../img/yundong.gif)no-repeat left center;border-bottom:3px solid #fa9634;}
+.main aside ul li:nth-of-type(4):hover{background: url(../img/shixun.gif)no-repeat left center;border-bottom:3px solid #fa9634;}
+.main aside ul li:nth-of-type(5):hover{background: url(../img/huaju.gif)no-repeat left center;border-bottom:3px solid #fa9634;}
+.main aside ul li:nth-of-type(6):hover{background: url(../img/shengdan.gif)no-repeat left center;border-bottom:3px solid #fa9634;}
+
+.main section{width: 65.9%;float: left;margin-left: 4.5%;padding-bottom: 50px;}
+.main p{text-indent: 32px;font-size: 16px;line-height: 30px;}
+.banner{display: none !important;}
+
+@media screen and (max-width: 1000px) {
+	.main aside{padding-left: 1%;}
+	.main section{width: 64.9%;padding-right: 1%;}
+	.banner{display: none !important;}
+}
+
+@media screen and (min-width: 480px) and (max-width: 720px) {
+	.main aside{width: 95%;padding-left: 5%;border: none; clear: both;}
+	.main aside ul li{width: 30%;margin-right: 3%;float: left;margin-bottom:20px;}
+	.main aside ul li a{display: block;height: 48px;padding-top: 59px;width: 100%;text-align: center;padding-left: 0;}
+
+	.main aside ul li:nth-of-type(1){background: url(../img/junxun-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	.main aside ul li:nth-of-type(2){background: url(../img/shixi.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(3){background: url(../img/yundong-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	.main aside ul li:nth-of-type(4){background: url(../img/shixun-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	.main aside ul li:nth-of-type(5){background: url(../img/huaju-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	.main aside ul li:nth-of-type(6){background: url(../img/shengdan-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	
+	.main aside ul li:nth-of-type(1):hover{background: url(../img/junxun.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(3):hover{background: url(../img/yundong.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(4):hover{background: url(../img/shixun.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(5):hover{background: url(../img/huaju.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(6):hover{background: url(../img/shengdan.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+
+	.main section{width: 90%;padding-left: 1%;clear: both;}
+	.main section .slider{display: none !important;}
+	.banner{display:block !important;}
+
+}
+
+@media screen and (max-width: 480px){
+	.main aside{width: 95%;padding-left: 5%;border: none; clear: both;}
+	.main aside ul li{width: 30%;margin-right: 3%;float: left;margin-bottom:20px;}
+	.main aside ul li a{display: block;height: 48px;padding-top: 59px;width: 100%;text-align: center;padding-left: 0;}
+	.main aside ul li a span{display: none;}
+	
+	.main aside ul li:nth-of-type(1){background: url(../img/junxun-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	.main aside ul li:nth-of-type(2){background: url(../img/shixi.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(3){background: url(../img/yundong-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	.main aside ul li:nth-of-type(4){background: url(../img/shixun-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	.main aside ul li:nth-of-type(5){background: url(../img/huaju-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	.main aside ul li:nth-of-type(6){background: url(../img/shengdan-2.gif)no-repeat center top;border-bottom:3px solid white;}
+	
+	.main aside ul li:nth-of-type(1):hover{background: url(../img/junxun.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(3):hover{background: url(../img/yundong.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(4):hover{background: url(../img/shixun.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(5):hover{background: url(../img/huaju.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	.main aside ul li:nth-of-type(6):hover{background: url(../img/shengdan.gif)no-repeat center top;border-bottom:3px solid #fa9634;}
+	
+	.main section{width: 90%;padding-left: 1%;clear: both;}
+	.main section .slider{display: none !important;}
+	.banner{display:block !important;}
+}

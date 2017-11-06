@@ -1,0 +1,18 @@
+section{width: 100%;max-width: 1000px;min-width: 320px;margin: 0 auto;}
+section h4{width: 100%; margin-top: 40px;text-align: center;font-size: 18px;color: #fa9634;}
+section p{width: 100%;text-align: center;font-size: 24px;padding-top: 18px;font-weight: bold;}
+section p>span{display: inline-block;}
+section p>span:nth-of-type(2){padding-left:3.2% ;padding-right: 3.2%;}
+section div{margin-top: 7px;line-height: 36px;font-size: 16px;text-align: center;}
+section div span{display: block;}
+section img{width:100%; margin: 32px auto;display: block;max-width: 669px;padding-bottom: 100px;}
+
+@media screen and (max-width: 1000px){
+	section{width: 96%;padding-left: 2%;}
+}
+@media screen and (max-width:720px ) {
+	section{width: 96%;padding-left: 2%;}
+	section h4{font-size: 16px;}
+	section p{font-size: 22px;}
+	section div{font-size: 14px;}
+}
